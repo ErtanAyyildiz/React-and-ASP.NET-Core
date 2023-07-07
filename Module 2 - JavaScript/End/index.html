@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <span>Hello world</span>
+
+        <script>
+const obj={
+    traditionalFunction: function(){
+        console.log('traditional function',this);
+    },
+    arrowFunction:()=>{
+        console.log('arrow function',this);
+    },
+    lastName:'Ertan'
+};
+
+console.log('this environment',this);
+obj.traditionalFunction();
+obj.arrowFunction();
+        </script>
+
+        <script>
+            const myname='Ertan AYYILDIZ';
+            const greeting2='Hello, ${myname}, how are you?';
+            console.log(greeting2);
+        </script>
+    </body>
+</html>
