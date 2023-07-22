@@ -1,4 +1,4 @@
-.form-markdown{
+.form-markdown {
     display: flex;
 }
 
@@ -8,7 +8,7 @@
     margin-right: 15px;
 }
 
-.form-markdown .markdown-container{
+.form-markdown .markdown-container {
     border: 1px dashed black;
     width: 500px;
     height: 500px;

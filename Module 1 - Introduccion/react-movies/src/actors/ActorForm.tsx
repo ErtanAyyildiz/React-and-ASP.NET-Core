@@ -15,7 +15,7 @@ export default function ActorForm(props: actorFormProps) {
             initialValues={props.model}
             onSubmit={props.onSubmit}
             validationSchema={Yup.object({
-                name: Yup.string().required('This field is required').firstLetterUpperCase(),
+                name: Yup.string().required('This field is required').firstLetterUppercase(),
                 dateOfBirth: Yup.date().nullable().required('This field is required')
             })}
         >

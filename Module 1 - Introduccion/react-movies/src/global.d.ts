@@ -1,7 +1,8 @@
-import { StringSchema } from "yup";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import {StringSchema} from 'yup';
 
 declare module 'yup'{
-    class StringSchema{
-        firstLetterUpperCase(): this;
+    class StringSchema {
+        firstLetterUppercase(): this;
     }
-} 
+}

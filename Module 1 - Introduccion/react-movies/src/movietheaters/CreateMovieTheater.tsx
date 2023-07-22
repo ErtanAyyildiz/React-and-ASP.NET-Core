@@ -1,12 +1,12 @@
-import MovieTheaterForm from "./MovieTheaterForm";
+import MovieTheaterForm from './MovieTheaterForm'
 
 export default function CreateMovieTheater(){
-    return(
+    return (
         <>
             <h3>Create Movie Theater</h3>
             <MovieTheaterForm 
-                model={{name:''}}
-                onSubmit={values=>console.log(values)}
+                model={{name: ''}}
+                onSubmit={values => console.log(values)}
             />
         </>
     )
